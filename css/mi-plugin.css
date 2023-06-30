@@ -1,0 +1,69 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los formularios */
+form {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] ,select{
+    width: 200px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #2271B1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: #f2f2f2;
+    background-color: #FFA300;
+}
+
+/* Estilos para los botones de edición y eliminación */
+.mi-plugin-edit-btn,
+.mi-plugin-delete-btn {
+    display: inline-block;
+    background-color: #2271B1;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+  
+    cursor: pointer;
+    border: none;
+}
+
+.mi-plugin-edit-btn:hover{
+    color: #222;
+    background-color: #FFA300;
+}
+.mi-plugin-delete-btn:hover {
+    color: #f2f2f2;
+    background-color: #222;
+}
+
+.mi-plugin-delete-btn {
+    background-color: #f44336;
+}
